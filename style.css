@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#counter {
+  color: #fff;
+}
+
+#main-container {
+  position: relative;
+}
+
+#background-image {
+  height: 100vh;
+  background-image: url(images/image_1.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(0);
+}
+
+#counter {
+  font-size: 5rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
